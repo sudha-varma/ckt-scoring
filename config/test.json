@@ -1,0 +1,34 @@
+{
+  "env": "test",
+  "port": 4040,
+  "bodyLimit": "5mb",
+  "corsHeaders": ["Origin, X-Requested-With, Content-Type, Accept"],
+  "corsOrigin": ["*", "http://www.crictec.com"],
+  "database": {
+    "mongooseDebug": true,
+    "host": "mongo",
+    "port": "27017",
+    "user": "root",
+    "pass": "root",
+    "dbname": "crictecScoring-test"
+  },
+  "redis": {
+    "host": "139.59.13.141",
+    "port": "6379",
+    "password": "Qw3r7y"
+  },
+  "jwt": {
+    "privateKey" : "someDevKey",
+    "tokenIssuer" : "Cricket Tech",
+    "tokenExpiry" : "60d"
+  },
+  "hashKey": "SomeRandomKey",
+  "domainPrefix": "http://www.crictec.com",
+  "emailFrom" :"info@cartoonmango.com",
+  "amazonAWS":{
+    "accessKeyId":"",
+    "secretAccessKey":"",
+    "bucketName":""
+  },
+  "autoBackup": false
+}

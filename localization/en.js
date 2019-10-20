@@ -1,0 +1,15 @@
+export default {
+  CREATED: "Created successfully.",
+  SUCCESSFULL: "Successfully loaded",
+  UPDATED: "Updated successfully.",
+  DELETED: "Deleted successfully.",
+  NOT_AUTHORIZED: "Not authorized.",
+  NOT_FOUND: "Data not found.",
+  DOES_NOT_EXIST: "Does not exist.",
+  ALREADY_EXIST: "Already exist.",
+  INVALID_DATA: "Invalid data",
+  BAD_REQUEST: "Bad Request.",
+  UNABALE_TO_PROCESS_REQUEST: "Unable to process your request.",
+  DB_WRITE_FAILED: "Something went wrong!",
+  UNKNOWN_ERROR: "Something went wrong. Please try again.",
+};
