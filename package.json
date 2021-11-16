@@ -38,7 +38,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "aws-sdk": "2.299.0",
+    "aws-sdk": "2.814.0",
     "bluebird": "3.5.1",
     "body-parser": "1.18.2",
     "compression": "1.7.2",
